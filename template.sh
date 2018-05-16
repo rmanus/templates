@@ -145,13 +145,12 @@ Functions
 
 Common options
 ==============
--d | --debug			: switch to debug mode (set -xv).
-						If used twice (--debug --debug), run the sub-processes in
-						debug mode too.
---[no]exec				: actually execute what should be done
---[no]force				: force the execution of some actions. Use at your own risks...
+-d | --debug		: switch to debug mode (set -xv).
+			  If used twice (--debug --debug), run the sub-processes in debug mode too.
+--[no]exec		: actually execute what should be done
+--[no]force		: force the execution of some actions. Use at your own risks...
 -[n]v | --[no]verbose
--d | --help
+-h | --help
 "
 }
 
